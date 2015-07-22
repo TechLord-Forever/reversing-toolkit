@@ -1,0 +1,63 @@
+{
+  "toolkit": [
+    {
+      "name": "Apktool",
+      "categories": ["android", "reversing"],
+      "repository": "https://github.com/iBotPeaches/Apktool",
+      "website": "https://ibotpeaches.github.io/Apktool/"
+    },
+    {
+      "name": "de4dot",
+      "categories": ["deobfuscation", "reversing"],
+      "repository": "https://github.com/0xd4d/de4dot"
+    },
+    {
+      "name": "dnEditor",
+      "categories": ["reversing"],
+      "repository": "https://github.com/ViRb3/dnEditor"
+    },
+    {
+      "name": "dnExplorer",
+      "categories": ["reversing"],
+      "repository": "https://github.com/yck1509/dnExplorer"
+    },
+    {
+      "name": "dnSpy",
+      "categories": ["reversing"],
+      "repository": "https://github.com/0xd4d/dnSpy"
+    },
+    {
+      "name": "ILSpy",
+      "categories": ["reversing"],
+      "repository": "https://github.com/icsharpcode/ILSpy",
+      "website": "http://ilspy.net"
+    },
+    {
+      "name": "OllyDbg",
+      "categories": ["debugging", "reversing"],
+      "website": "http://www.ollydbg.de"
+    },
+    {
+      "name": "Pev",
+      "categories": ["reversing"],
+      "repository": "https://github.com/merces/pev",
+      "website": "http://pev.sourceforge.net"
+    },
+    {
+      "name": "Scylla",
+      "categories": ["debugging", "reversing"],
+      "repository": "https://github.com/NtQuery/Scylla"
+    },
+    {
+      "name": "smali",
+      "categories": ["android", "reversing"],
+      "repository": "https://code.google.com/p/smali/"
+    },
+    {
+      "name": "x64dbg",
+      "categories": ["debugging", "reversing"],
+      "repository": "https://github.com/x64dbg/x64dbg",
+      "website": "https://x64dbg.com"
+    }
+  ]
+}
