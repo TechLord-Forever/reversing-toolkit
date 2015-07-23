@@ -27,10 +27,21 @@
       "repository": "https://github.com/0xd4d/dnSpy"
     },
     {
+      "name": "gdb",
+      "categories": ["debugging", "reversing"],
+      "website": "https://www.gnu.org/software/gdb/"
+    },
+    {
       "name": "ILSpy",
       "categories": ["reversing"],
       "repository": "https://github.com/icsharpcode/ILSpy",
       "website": "http://ilspy.net"
+    },
+    {
+      "name": "JD-GUI",
+      "categories": ["java", "reversing"],
+      "repository": "https://github.com/java-decompiler/jd-gui",
+      "website": "http://jd.benow.ca/"
     },
     {
       "name": "OllyDbg",
@@ -42,6 +53,11 @@
       "categories": ["reversing"],
       "repository": "https://github.com/merces/pev",
       "website": "http://pev.sourceforge.net"
+    },
+    {
+      "name": "procyon",
+      "categories": ["java", "reversing"],
+      "repository": "https://bitbucket.org/mstrobel/procyon"
     },
     {
       "name": "Scylla",

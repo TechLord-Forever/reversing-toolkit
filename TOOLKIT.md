@@ -19,10 +19,19 @@ dnSpy
 -----
 - Repository: https://github.com/0xd4d/dnSpy
 
+gdb
+---
+- Website: https://www.gnu.org/software/gdb/
+
 ILSpy
 -----
 - Repository: https://github.com/icsharpcode/ILSpy
 - Website: http://ilspy.net
+
+JD-GUI
+------
+- Repository: https://github.com/java-decompiler/jd-gui
+- Website: http://jd.benow.ca/
 
 OllyDbg
 -------
@@ -32,6 +41,10 @@ Pev
 ---
 - Repository: https://github.com/merces/pev
 - Website: http://pev.sourceforge.net
+
+procyon
+-------
+- Repository: https://bitbucket.org/mstrobel/procyon
 
 Scylla
 ------
