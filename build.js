@@ -4,6 +4,25 @@ var fs = require('fs');
 var minimist = require('minimist');
 var _ = require('underscore');
 
+var sortTypes = [
+  {
+    name: "Alphebetical",
+    // Sort alphabetically by name
+    callback: function(i1, i2) {
+      var name1 = i1.name.toLowerCase(),
+          name2 = i2.name.toLowerCase();
+      if(name1 < name2) {
+        return -1;
+      } else if(name1 > name2) {
+        return 1;
+      } else {
+        return 0;
+      }
+    },
+    prefix: "ABC"
+  }
+];
+
 /**
  * Get a string containing N dashes.
  * @param {(Number|String)} length - Number of dashes, if a string use the
@@ -69,6 +88,9 @@ var main = function(args) {
 
   try { json = JSON.parse(contents); }
   catch (e) { console.error(e); }
+
+  // Sort
+  json.toolkit = json.toolkit.sort(sortTypes[0].callback);
 
   if(json) {
     var markdown = getMarkdown(json);
