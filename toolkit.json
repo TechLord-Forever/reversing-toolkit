@@ -7,6 +7,11 @@
       "website": "https://ibotpeaches.github.io/Apktool/"
     },
     {
+      "name": "bytecode-viewer",
+      "categories": ["android", "java", "reversing"],
+      "repository": "https://github.com/Konloch/bytecode-viewer"
+    },
+    {
       "name": "de4dot",
       "categories": ["deobfuscation", "reversing"],
       "repository": "https://github.com/0xd4d/de4dot"
