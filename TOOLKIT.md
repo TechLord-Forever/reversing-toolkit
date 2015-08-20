@@ -3,6 +3,15 @@ Apktool
 - Repository: https://github.com/iBotPeaches/Apktool
 - Website: https://ibotpeaches.github.io/Apktool/
 
+BinNavi
+-------
+- Repository: https://github.com/google/binnavi
+- Website: http://www.zynamics.com/binnavi.html
+
+bytecode-viewer
+---------------
+- Repository: https://github.com/Konloch/bytecode-viewer
+
 de4dot
 ------
 - Repository: https://github.com/0xd4d/de4dot
@@ -41,6 +50,11 @@ Pev
 ---
 - Repository: https://github.com/merces/pev
 - Website: http://pev.sourceforge.net
+
+PortEx
+------
+- Repository: https://github.com/katjahahn/PortEx
+- Website: https://katjahahn.github.io/PortEx/
 
 procyon
 -------
