@@ -52,8 +52,16 @@ var itemToMarkdown = function(item) {
   builder.push(item.name);
   builder.push(dashes(item.name));
 
+  if(item.description) {
+    builder.push(item.description);
+  }
+
   if(item.repository) {
     builder.push('- Repository: ' + item.repository);
+  }
+
+  if(item.thread) {
+    builder.push('- Thread: ' + item.thread);
   }
 
   if(item.website) {

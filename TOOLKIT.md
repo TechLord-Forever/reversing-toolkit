@@ -5,6 +5,7 @@ Apktool
 
 BinNavi
 -------
+Binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code
 - Repository: https://github.com/google/binnavi
 - Website: http://www.zynamics.com/binnavi.html
 
@@ -53,7 +54,9 @@ Pev
 
 PortEx
 ------
+Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
 - Repository: https://github.com/katjahahn/PortEx
+- Thread: https://forum.tuts4you.com/topic/37421-portex-library-for-static-analysis-of-pe-files/
 - Website: https://katjahahn.github.io/PortEx/
 
 procyon
